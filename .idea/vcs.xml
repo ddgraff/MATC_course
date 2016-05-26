@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Assignments/Portfolio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignments/Recipes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignments/recipe-database" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TeachingMaterials-mine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TeachingMaterials-mine/MATC_course" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TeachingMaterials-mine/ngToDo-ToddHale" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TestRepo" vcs="Git" />
+  </component>
+</project>

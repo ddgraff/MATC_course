@@ -1,0 +1,28 @@
+<div class="alert alert-success">
+    <h3>Lists</h3>
+
+    <input type="text" ng-model="bc.listName">
+    <button ng-click="bc.addList()">Add List</button>
+    <br>
+    <br>
+    Select a List:
+    <ul class="nav-pills nav-stacked" ng-model="bc.currentList" ng-change="bc.changeList()">
+        <li ng-click="bc.changeList($index)" ng-repeat="name in bc.listNames">
+            <span ng-bind="name | properCase" ng-class="{strike: completed}"></span>
+            <input type="checkbox" ng-model="completed">
+            <button ng-click="bc.deleteList($index)">Delete</button>
+        </li>
+    </ul>
+    <br>
+    <br>
+    New Item:
+    <input type="text" ng-model="bc.newItem">
+    <button ng-click="bc.addItem()">Add Item</button>
+    <button ng-click="bc.removeChecked()">Remove Completed Items</button>
+    <br>
+    <br>
+    <ul class="nav-pills nav-stacked">
+        <td-repeat></td-repeat>
+    </ul>
+    <td-emptylist></td-emptylist>
+</div>

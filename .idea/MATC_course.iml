@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/TeachingMaterials-mine/AngularJS/Ionic/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/TeachingMaterials-mine/AngularJS/geo/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/TeachingMaterials-mine/AngularJS/ionic-weather/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/TeachingMaterials-mine/Unit13_Security/day_1/node_modules/jshint/src/platforms" />
+      <excludeFolder url="file://$MODULE_DIR$/TeachingMaterials-mine/Unit13_Security/day_1/node_modules/plato/node_modules/jshint/src/platforms" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
